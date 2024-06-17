@@ -8,7 +8,7 @@ Datapath=os.path.join(Package_root,"datasets")
 Train_file='train..csv'
 Test_file='test.csv'
 
-Saved_Model=os.path.join(Package_root,"trained_model")
+SAVED_MODEL=os.path.join(Package_root,"trained_model")
 
 Target='Loan_Status'
 
