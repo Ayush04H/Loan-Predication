@@ -2,36 +2,46 @@ import pathlib
 import os
 import prediction_model
 
-Package_root=pathlib.Path(prediction_model.__file__).resolve().parent
-Datapath=os.path.join(Package_root,"datasets")
+PACKAGE_ROOT = pathlib.Path(prediction_model.__file__).resolve().parent
 
-Train_file='train.csv'
-Test_file='test.csv'
+DATAPATH = os.path.join(PACKAGE_ROOT,"datasets")
 
+TRAIN_FILE = 'train.csv'
+TEST_FILE = 'test.csv'
 
-Model_name='loanclassifier.pkl'
-SAVED_MODEL=os.path.join(Package_root,"trained_model")
+MODEL_NAME = 'classification.pkl'
+SAVE_MODEL_PATH = os.path.join(PACKAGE_ROOT,'trained_models')
 
-Target='Loan_Status'
+TARGET = 'Loan_Status'
 
-# Final Features Used In A Model
-Features=['Gender', 'Married', 'Dependents', 'Education', 'Self_Employed',
-       'ApplicantIncome', 'LoanAmount', 'Loan_Amount_Term', 'Credit_History',
-       'Property_Area']
+#Final features used in the model
+FEATURES = ['Gender', 'Married', 'Dependents', 'Education',
+       'Self_Employed', 'ApplicantIncome', 'CoapplicantIncome', 'LoanAmount',
+       'Loan_Amount_Term', 'Credit_History', 'Property_Area']
 
-Num_features=['ApplicantIncome', 'LoanAmount',
-       'Loan_Amount_Term']
+NUM_FEATURES = ['ApplicantIncome', 'LoanAmount', 'Loan_Amount_Term']
 
-Cat_features=['Gender', 'Married', 'Dependents', 'Education', 'Self_Employed',
-         'Credit_History', 'Property_Area']
+CAT_FEATURES = ['Gender',
+ 'Married',
+ 'Dependents',
+ 'Education',
+ 'Self_Employed',
+ 'Credit_History',
+ 'Property_Area']
 
-# Features to Encode
-Features_to_encode=['Gender', 'Married', 'Dependents', 'Education', 'Self_Employed',
-         'Credit_History', 'Property_Area'] 
+# in our case it is same as Categorical features
+FEATURES_TO_ENCODE = ['Gender',
+ 'Married',
+ 'Dependents',
+ 'Education',
+ 'Self_Employed',
+ 'Credit_History',
+ 'Property_Area']
 
-Feature_to_modify=['ApplicantIncome']
-Feature_to_add='CoApplicantIncome'
+FEATURE_TO_MODIFY = ['ApplicantIncome']
+FEATURE_TO_ADD = 'CoapplicantIncome'
 
-Drop_features=['CoApplicantIncome']
+DROP_FEATURES = ['CoapplicantIncome']
 
-Log_features=['ApplicantIncome', 'LoanAmount']
+LOG_FEATURES = ['ApplicantIncome', 'LoanAmount'] # taking log of numerical columns
+
