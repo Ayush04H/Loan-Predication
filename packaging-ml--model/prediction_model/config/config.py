@@ -5,9 +5,11 @@ import prediction_model
 Package_root=pathlib.Path(prediction_model.__file__).resolve().parent
 Datapath=os.path.join(Package_root,"datasets")
 
-Train_file='train..csv'
+Train_file='train.csv'
 Test_file='test.csv'
 
+
+Model_name='loanclassifier.pkl'
 SAVED_MODEL=os.path.join(Package_root,"trained_model")
 
 Target='Loan_Status'
