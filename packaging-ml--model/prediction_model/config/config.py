@@ -44,4 +44,3 @@ FEATURE_TO_ADD = 'CoapplicantIncome'
 DROP_FEATURES = ['CoapplicantIncome']
 
 LOG_FEATURES = ['ApplicantIncome', 'LoanAmount'] # taking log of numerical columns
-
