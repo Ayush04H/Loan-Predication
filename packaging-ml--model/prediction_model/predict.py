@@ -21,6 +21,8 @@ classification_pipeline = load_pipeline(config.MODEL_NAME)
 #    result = {"prediction":output}
 #    return result
 
+
+#New Test Function
 def generate_predictions():
      test_data = load_dataset(config.TEST_FILE)
      pred = classification_pipeline.predict(test_data[config.FEATURES])
