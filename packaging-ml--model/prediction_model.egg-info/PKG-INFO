@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: prediction_model
+Version: 1.0.0
+Summary: Loan Prediction Model
+Home-page: 
+Author: Ayush Kumar Srivastava
+Author-email: ayush050419@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: None
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy==1.26.4
+Requires-Dist: pandas==2.2.2
+Requires-Dist: joblib==1.4.2
+Requires-Dist: scikit-learn==1.4.2
+Requires-Dist: scipy==1.13.1
+Requires-Dist: setuptools==69.5.1
+Requires-Dist: wheel==0.43.0
+Requires-Dist: pytest==7.4.4
+
+
