@@ -22,5 +22,6 @@ Requires-Dist: scipy==1.13.1
 Requires-Dist: setuptools==69.5.1
 Requires-Dist: wheel==0.43.0
 Requires-Dist: pytest==7.4.4
+Requires-Dist: streamlit
 
 
