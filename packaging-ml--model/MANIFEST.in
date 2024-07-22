@@ -1,6 +1,7 @@
 include *.txt
 include *.md 
 include *.py
+recursive-include ./Loan_pred_Api/*
 recursive-include ./prediction_model/*
 
 include prediction_model/datasets/*.csv
