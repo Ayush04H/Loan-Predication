@@ -33,7 +33,7 @@ def generate_predictions(data_input):
         return None
 
 # Streamlit app
-st.title("Loan Eligibility Prediction")
+st.title("🏦 Loan Eligibility Prediction 🏦")
 
 # Input fields for the features with try-except blocks
 try:
@@ -105,6 +105,25 @@ input_data = {
     "Credit_History": [Credit_History],
     "Property_Area": [Property_Area]
 }
+
+# Custom CSS for button styling
+st.markdown("""
+    <style>
+    .stButton button {
+        background-color: #6a0dad; /* Purple color */
+        color: #000000; /* Black text color */
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .stButton button:hover {
+        background-color: #5c0ba1; /* Darker purple on hover */
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
 # Button to get predictions
 if st.button("Predict"):
