@@ -56,6 +56,93 @@ This FastAPI application provides an endpoint for predicting loan approval statu
        "Property_Area": "Rural"
      }
      ```
+
+     ```json
+     {
+      "Gender": "Male",
+      "Married": "No",
+      "Dependents": "1",
+      "Education": "Graduate",
+      "Self_Employed": "No",
+      "ApplicantIncome": 4000,
+      "CoapplicantIncome": 2000,
+      "LoanAmount": 150,
+      "Loan_Amount_Term": 300,
+      "Credit_History": 1,
+      "Property_Area": "Rural"
+      }
+
+     ```
+
+     ```json
+     {
+      "Gender": "Female",
+      "Married": "Yes",
+      "Dependents": "2",
+      "Education": "Not Graduate",
+      "Self_Employed": "Yes",
+      "ApplicantIncome": 5000,
+      "CoapplicantIncome": 1000,
+      "LoanAmount": 200,
+      "Loan_Amount_Term": 360,
+      "Credit_History": 1,
+      "Property_Area": "Urban"
+      }
+
+     ```
+
+     ```json
+     {
+      "Gender": "Male",
+      "Married": "Yes",
+      "Dependents": "0",
+      "Education": "Graduate",
+      "Self_Employed": "No",
+      "ApplicantIncome": 3000,
+      "CoapplicantIncome": 1500,
+      "LoanAmount": 120,
+      "Loan_Amount_Term": 240,
+      "Credit_History": 0,
+      "Property_Area": "Semiurban"
+      }
+
+     ```
+
+     ```json
+     {
+      "Gender": "Female",
+      "Married": "No",
+      "Dependents": "3+",
+      "Education": "Graduate",
+      "Self_Employed": "Yes",
+      "ApplicantIncome": 4500,
+      "CoapplicantIncome": 0,
+      "LoanAmount": 100,
+      "Loan_Amount_Term": 180,
+      "Credit_History": 1,
+      "Property_Area": "Rural"
+      }
+
+     ```
+
+     ```json
+     {
+      "Gender": "Male",
+      "Married": "Yes",
+      "Dependents": "1",
+      "Education": "Not Graduate",
+      "Self_Employed": "No",
+      "ApplicantIncome": 3500,
+      "CoapplicantIncome": 1800,
+      "LoanAmount": 170,
+      "Loan_Amount_Term": 300,
+      "Credit_History": 0,
+      "Property_Area": "Urban"
+      }
+
+     ```
+
+     
    - Click the "Execute" button to send the request.
 
 3. **View the Response**:
