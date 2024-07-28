@@ -86,4 +86,14 @@ To clone and set up the repository in a new virtual environment, follow these st
     python prediction_model/predict.py
     ```
 
+## Docker Setup
 
+To build and run the project using Docker, follow these steps:
+    ```
+
+1. **Commands to run Docker on any system**:
+    ```sh
+    docker login
+    docker pull ayush04h/loan-prediction-model
+    docker run -p 8501:8501 ayush04h/loan-prediction-model
+    ```
