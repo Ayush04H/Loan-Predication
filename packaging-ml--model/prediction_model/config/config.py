@@ -4,6 +4,7 @@ import prediction_model
 
 # Define the root directory of the prediction_model package
 PACKAGE_ROOT = pathlib.Path(prediction_model.__file__).resolve().parent
+print(PACKAGE_ROOT)
 
 # Define the path to the datasets directory within the package
 DATAPATH = os.path.join(PACKAGE_ROOT, "datasets")
