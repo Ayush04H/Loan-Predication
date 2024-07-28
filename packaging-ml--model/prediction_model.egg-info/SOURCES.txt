@@ -4,6 +4,8 @@ requirements.txt
 setup.py
 Loan_pred_Api/__init__.py
 Loan_pred_Api/loan_pred_api.py
+Loan_pred_frontend/__init__.py
+Loan_pred_frontend/loanpred_frontend.py
 prediction_model/VERSION
 prediction_model/__init__.py
 prediction_model/pipeline.py
