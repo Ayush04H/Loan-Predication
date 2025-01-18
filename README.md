@@ -3,7 +3,13 @@
 
 This project aims to predict the status of loan applications based on a dataset provided on Kaggle. The repository includes the implementation of a machine learning pipeline for training and predicting loan statuses, a FastAPI for serving predictions, and a Streamlit frontend for user interaction.
 
+## Live Deployed Link
+```sh
+    https://loan-predication-ayush04h.streamlit.app/
+```
+
 ## Project Structure
+
 
 The project is structured into various modules:
 
