@@ -102,3 +102,8 @@ To build and run the project using Docker, follow these steps:
     docker pull ayush04h/loan-prediction-model
     docker run -p 8501:8501 ayush04h/loan-prediction-model
     ```
+
+
+
+
+#Deployed on Streamlit Default , App may take time to Wake Up !
